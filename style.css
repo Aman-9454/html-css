@@ -1,0 +1,12 @@
+body{
+    background-color: cyan;
+}
+.heading{
+    color: gray;
+    font-size: 45px;
+    text-align-last: center;
+    text-decoration: underline;
+}
+p{
+    color: black;
+}
