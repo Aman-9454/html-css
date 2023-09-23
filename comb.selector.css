@@ -1,0 +1,28 @@
+/* descendent selector */
+main h2, p{
+    color: blue;
+    font-size: 30px ;
+}
+/* child selector */
+h1 >p{
+    color: red;
+}
+/* adjacent sibling */
+section + p{
+    color: blueviolet;
+}
+/* general sibling selector
+/* general sibling selector kisi ek parent ke baad jitne bhi child aate hai un child pe apply hota h 
+section ~ p{
+    color: blueviolet;
+} */
+/* attribute selector  is used only for anchor tag*/
+[target="_blank"]{
+   
+    text-decoration: underline;
+}
+/* [attribute~="value"] selector is used to select element with an attribute value containg a special word */
+[ alt~="aman"]{
+ text-decoration: underline;
+ background-color: blueviolet;
+}
