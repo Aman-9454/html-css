@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        /* p::first-line{
+            color: aqua;
+        } */
+        p::after{
+            content: "_abcd";
+            color: aqua;
+        }
+        p::before{
+            content: "_abcd";
+            color: aqua;
+        }
+        p::selection{
+            background-color: black;
+            color: greenyellow; 
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, numquam ipsam! Voluptas mollitia autem optio sequi quibusdam labore maxime beatae provident delectus repellendus commodi, exercitationem, ratione sapiente, nostrum odit cum ea sit iure incidunt laboriosam amet dolorem. Harum, dolores eveniet!
+    </p>
+</body>
+</html>
