@@ -1,0 +1,57 @@
+body{
+    background-color: green;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: 'welcome to the demo';
+} 
+
+@media(max-width: 400px){
+    body{
+        background-color: #fff;
+    }
+    div::after{
+        content: 'content very small';
+    }
+}
+/* 
+@media(min-width: 400px)and(max-width: 700px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content:'mid size';
+    }
+} */
+
+@media(400px <= width <= 700px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content:'mid size';
+    }
+}
+
+@media(min-width: 700px){
+    /* if view port is atleast 900px then the style will apply */
+    body{
+        background-color: purple;
+    }
+    div::after{
+        content: 'wow its working ';
+    }
+}
+
+@media(min-width: 900px){
+    /* if view port is atleast 900px then the style will apply */
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: 'wow its working ';
+    }
+}

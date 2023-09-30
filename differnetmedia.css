@@ -1,0 +1,28 @@
+@media(max-width: 600px){
+    /* for phones */
+    body{
+        background-color: yellow;
+        
+    }
+
+    div::after{
+        font-size: x-large;
+        content: 'this is mobile compartible' ;
+    }
+    div{
+        text-align: center;
+    }
+}
+ @media(min-width: 768px){  
+/* for tablets */
+body{ 
+    background-color: red;
+    text-align: center;
+   }
+    div::after{
+    content: this is tablet;
+   }
+ } 
+@media(min-width){
+    border-style: ;
+}
